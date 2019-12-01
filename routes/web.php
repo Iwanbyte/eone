@@ -18,5 +18,3 @@ Route::get('/eonecode', function () {
 Route::get('/laravel-intro', function () {
     return view('home.laravel.beginner.intro');
 })->name('laravel-intro');
-
-Route::resource('/route', "routeController");
